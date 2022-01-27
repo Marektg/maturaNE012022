@@ -1,0 +1,74 @@
+body {
+	background-color: darkorange;
+    font-size: 25px;
+}
+
+header {
+    text-align: center;
+    font-size: 1.5em;
+}
+.zadania {
+    display: flex;
+}
+nav {
+    padding: 5px;
+    text-align: center;
+    text-decoration: none;
+    list-style: none;
+    font-weight: 700;
+    flex-basis: 30%;
+}
+nav ul {
+    margin: 0;
+    padding: 0;
+    
+}
+nav li {
+    list-style-type: none;
+    font-weight: 400;
+}
+nav a {
+    text-decoration: none;
+    color:black;
+}
+section {
+    flex-grow: 1;
+    margin-left: 15px;
+    font-size: 25px;
+    margin-right: 10px;
+}
+section ol {
+    list-style-position: inside;
+}
+section li {
+    padding: 5px;
+    padding-left: 15px;
+}
+section li:nth-child(odd) {background: coral;}
+section li:nth-child(even) {background: khaki;}
+section li:hover {
+    background-color: white;
+}
+section li::marker{
+    font-size: 20px;
+    display: inline;
+}
+h2 {
+    text-align: center;
+}
+.tresc{
+	font-size: 20px;
+	color: black;
+}
+.odp {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.odp> div::first-letter {
+    text-transform: uppercase;
+    font-weight: 600;
+}
+img {
+    margin-left: calc(100%/3);
+}
