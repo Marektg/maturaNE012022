@@ -31,24 +31,35 @@ nav a {
     text-decoration: none;
     color:black;
 }
+nav a:hover{
+    background-color: yellowgreen;
+}
 .list {
     position: sticky;
     top: -1px;
     left:1px;
+}
+.job-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+.job-list li {
+    margin: 5px;
+    padding: 2px;
 }
 section {
     flex-grow: 1;
     margin-left: 15px;
     font-size: 25px;
     margin-right: 10px;
-}
+    }
 section ol {
     list-style-position: inside;
 }
 section li {
     padding: 5px;
     padding-left: 15px;
-}
+    }
 section li:nth-child(odd) {background: coral;}
 section li:nth-child(even) {background: khaki;}
 section li:hover {
@@ -76,4 +87,17 @@ h2 {
 }
 img {
     margin-left: calc(100%/3);
+}
+footer{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+footer a {
+    text-decoration: none;
+    color:black;
+    font-size: 15px;
+}
+footer a:hover{
+    background-color: yellowgreen;
 }
